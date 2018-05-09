@@ -1,6 +1,6 @@
 # brew tap for half pipe cli 
 
-https://github.com/springernature/homebrew-halfpipe
+https://github.com/springernature/halfpipe
 
 
 ## install
