@@ -6,7 +6,7 @@ class Fly < Formula
   sha256 "9f345192478b74f7764829c7be16bab2b4161d15308caa7d064aac7ab150d5ea"
 
   def install
-    mv "fly.dms", "fly"
+    mv "fly-3.9.2.io", "fly"
     bin.install "fly"
   end
 
