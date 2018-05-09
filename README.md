@@ -2,19 +2,20 @@
 
 https://github.com/springernature/halfpipe
 
+This offers both a forumula for [Halfpipe](https://docs.halfpipe.io/docs/halfpipe-cli/) and a convience forumla for [Concourse's Fly](https://docs.halfpipe.io/docs/concourse/).
 
-## install
+## Install
 
-```
+```bash
 brew tap springernature/halfpipe
-brew install halfpipe
+brew install halfpipe fly
 ```
 
-## uninstall
+## Uninstall
 
-```
+```bash
 brew untap springernature/halfpipe
-brew uninstall halfpipe
+brew uninstall halfpipe fly
 ```
 
 ## updating formula
