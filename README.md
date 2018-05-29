@@ -1,8 +1,8 @@
-# brew tap for half pipe cli 
+# Brew tap for Halfpipe CLI 
 
 https://github.com/springernature/halfpipe
 
-This offers both a forumula for [Halfpipe](https://docs.halfpipe.io/docs/halfpipe-cli/) and a convience forumla for [Concourse's Fly](https://docs.halfpipe.io/docs/concourse/).
+This offers both a formula for [Halfpipe](https://docs.halfpipe.io/docs/halfpipe-cli/) and a convenience formula for [Concourse's Fly](https://docs.halfpipe.io/docs/concourse/).
 
 ## Install
 
@@ -18,7 +18,7 @@ brew untap springernature/halfpipe
 brew uninstall halfpipe fly
 ```
 
-## updating formula
+## Updating formula
 
 1. change version
 2. d/l manually `wget the-url`
