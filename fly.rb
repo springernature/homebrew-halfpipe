@@ -6,7 +6,7 @@ class Fly < Formula
   sha256 "61fd5fe1ac796abe12b386d126a4bb876ba06d587f0a35d2b0f1186487e1f1ca"
 
   def install
-    mv "cli", "fly"
+    mv "fly_darwin_amd64", "fly"
     bin.install "fly"
   end
 
