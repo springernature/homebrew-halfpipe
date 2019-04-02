@@ -6,8 +6,6 @@ class Fly < Formula
   sha256 "ab3a04c50fd865c2af24bc8a03c34f99212894322c367fae631b7560a2637dbe"
 
   def install
-    system "tar", "xzf",
-                  "fly-#{version}-darwin-amd64.tgz"
     bin.install "fly"
   end
 
