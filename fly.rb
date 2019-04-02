@@ -3,7 +3,7 @@ class Fly < Formula
   homepage "https://github.com/springernature/halfpipe"
   version "5.0.1"
   url "https://github.com/concourse/concourse/releases/download/v#{version}/fly-#{version}-darwin-amd64.tgz"
-  sha256 "3894b059d947f9a39705eaddbac3ab8ea35dd4bd826e3154f4e0633547960a45"
+  sha256 "ab3a04c50fd865c2af24bc8a03c34f99212894322c367fae631b7560a2637dbe"
 
   def install
     tar xzf "fly-#{version}-darwin-amd64.tgz"
