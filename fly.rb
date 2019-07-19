@@ -1,9 +1,9 @@
 class Fly < Formula
   desc "halfpipe cli"
   homepage "https://github.com/springernature/halfpipe"
-  version "5.1.0"
+  version "5.3.0"
   url "https://github.com/concourse/concourse/releases/download/v#{version}/fly-#{version}-darwin-amd64.tgz"
-  sha256 "d0fb842725636536355c67821e7a7fe2be90a41299ae1324b747f50cd88ac9c8"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   def install
     bin.install "fly"
