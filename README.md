@@ -2,20 +2,22 @@
 
 https://github.com/springernature/halfpipe
 
-This offers both a formula for [Halfpipe](https://docs.halfpipe.io/docs/halfpipe-cli/) and a convenience formula for [Concourse's Fly](https://docs.halfpipe.io/docs/concourse/).
+This offers a formula for [Halfpipe](https://docs.halfpipe.io/docs/halfpipe-cli/). You can install `fly` via the standard cask.
 
 ## Install
 
 ```bash
 brew tap springernature/halfpipe
-brew install halfpipe fly
+brew install halfpipe
+
+brew cask install fly # provided by the core brew repos
 ```
 
 ## Uninstall
 
 ```bash
 brew untap springernature/halfpipe
-brew uninstall halfpipe fly
+brew uninstall halfpipe
 ```
 
 ## Updating formula
