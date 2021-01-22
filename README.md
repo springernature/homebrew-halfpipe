@@ -7,10 +7,9 @@ This offers a formula for [Halfpipe](https://docs.halfpipe.io/docs/halfpipe-cli/
 ## Install
 
 ```bash
-brew tap springernature/halfpipe
-brew install halfpipe
+brew install springernature/halfpipe/halfpipe
 
-brew cask install fly # provided by the core brew repos
+brew install fly # provided by the core brew repos
 ```
 
 ## Uninstall
