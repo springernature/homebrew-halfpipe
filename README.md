@@ -2,7 +2,7 @@
 
 https://github.com/springernature/halfpipe
 
-This offers a formula for [Halfpipe](https://docs.halfpipe.io/docs/halfpipe-cli/). You can install `fly` [from the web interface](https://springernature.jfrog.io/artifactory/halfpipe/halfpipe_darwin_).
+This offers a formula for [Halfpipe](https://docs.halfpipe.io/docs/halfpipe-cli/). You can install `fly` [from the web interface](https://concourse.halfpipe.io/download-fly).
 
 ## Install
 
