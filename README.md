@@ -20,7 +20,7 @@ brew uninstall halfpipe
 ## Updating formula
 
 1. Update the version number in the formula
-2. Use the URI from the formula to download the file, e.g. `curl -Lo halfpipe https://springernature.jfrog.io/artifactory/halfpipe/halfpipe_darwin_<version number>`
+2. Use the URI from the formula to download the file, e.g. `curl -Lo halfpipe https://github.com/springernature/halfpipe/releases/download/<version>/halfpipe_darwin_<version>`
 3. Computer the SHA: `shasum -a 256 halfpipe`
 4. Update sha in `halfpipe.rb`
 5. Clean up: `rm -f halfpipe`
