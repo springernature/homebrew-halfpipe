@@ -7,4 +7,6 @@ component:
   owner: engineering-enablement
   language: ruby
   lifecycle: core
-  tier: mission-critical
+  tier: Internal-Only
+  properties:
+    static_module: true
