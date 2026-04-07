@@ -1,16 +1,16 @@
 version: 1
 component:
-  name: Homebrew Halfpipe
-  description: Brew tap for Halfpipe CLI
+  name: homebrew-halfpipe
+  description: Brew tap for the Halfpipe CLI
   type: application_module
-  system: APPL-437
   owner: engineering-enablement
+  tier: Internal-Only
   language: ruby
   lifecycle: core
-  tier: Internal-Only
-  properties:
-    static_module: true
+  system: APPL-432
   tools:
     - category: issue_tracking
       name: GitHub
       url: https://github.com/springernature/homebrew-halfpipe/issues
+  properties:
+    static_module: true
