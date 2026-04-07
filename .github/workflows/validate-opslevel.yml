@@ -1,0 +1,27 @@
+name: Validate OpsLevel Configs
+permissions:
+  contents: read
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+    paths:
+      - '**/opslevel.yml'
+      - '**/opslevel.yaml'
+      - '.github/workflows/validate-opslevel.yml'
+  pull_request:
+    paths:
+      - '**/opslevel.yml'
+      - '**/opslevel.yaml'
+      - '.github/workflows/validate-opslevel.yml'
+
+jobs:
+  validate:
+    runs-on: ee-runner
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: springernature/ee-action-validate-opslevel@747dae235a48bfabcec0021f4714a2374b7081f3 # 1.0.4
+        with:
+          opslevel_api_token: ${{ secrets.OPSLEVEL_RW_TOKEN }}
