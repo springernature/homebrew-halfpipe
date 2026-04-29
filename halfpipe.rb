@@ -1,9 +1,9 @@
 class Halfpipe < Formula
   desc "halfpipe cli"
   homepage "https://github.com/springernature/halfpipe"
-  version "3.224.0"
+  version "3.225.0"
   url "https://github.com/springernature/halfpipe/releases/download/#{version}/halfpipe_darwin_#{version}"
-  sha256 "143d35d85bfe0e585c539729a7307b3cf6aab1687f8554a5c268a0656600125c"
+  sha256 "2835051a509827b346fd586be348c83fcd7efc567f6fad0afce984b5282cf789"
 
   def install
     mv "halfpipe_darwin_#{version}", "halfpipe"
