@@ -20,6 +20,7 @@ on:
 jobs:
   validate:
     runs-on: ee-runner
+    if: github.actor != 'dependabot[bot]'
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - uses: springernature/ee-action-validate-opslevel@747dae235a48bfabcec0021f4714a2374b7081f3 # 1.0.4
