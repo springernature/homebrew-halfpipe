@@ -43,7 +43,7 @@ jobs:
 
       - name: Set up Ruby
         if: ${{ matrix.language == 'ruby' }}
-        uses: ruby/setup-ruby@6ca151fd1bfcfd6fe0c4eb6837eb0584d0134a0c # v1.290.0
+        uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1.338.0
         with:
           ruby-version: 'head' # Adapt if your project requires a specific version
 
